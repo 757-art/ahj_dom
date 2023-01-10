@@ -1,10 +1,9 @@
-
-const wrap = document.getElementsByClassName('wrapper')[0];
+const wrap = document.getElementsByClassName("wrapper")[0];
 const img = document.images[0];
 img.parentElement.removeChild(img);
 
 for (let i = 0; i < 4 * 4; i += 1) {
-  const div = document.createElement('div');
+  const div = document.createElement("div");
   wrap.appendChild(div);
 }
 
