@@ -1,4 +1,4 @@
-﻿﻿import { checkCardLuhn, checkPaySystem } from "../functions";
+﻿﻿import { checkCardLuhn, checkPaySystem } from "../src/js/functions";
 import PaySystems from "../paySystems";
 
 const paySystem = PaySystems.list;
