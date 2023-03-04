@@ -1,7 +1,6 @@
 import "./css/style.css";
-
 import "./js/app";
-import './images/american.gif';
+import './images/americanexpress.png';
 import "./images/dinersclub.png";
 import "./images/discover.png";
 import "./images/jcb.png";

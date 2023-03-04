@@ -6,7 +6,7 @@ export default class PaySystems {
   static get list() {
     return {
       "American Express": "34,37",
-      "Diners Club International": "30,36,38",
+      "Diners Club": "30,36,38",
       "Discover Card": "60",
       JCB: "31,35",
       MIR: "22",
