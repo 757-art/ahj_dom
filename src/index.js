@@ -7,5 +7,5 @@ import "./images/discover.png";
 import "./images/jcb.png";
 import "./images/mastercard.png";
 import "./images/mir.png";
-import "./images/visa.png";
+import './images/visa.png';
 import "./license.txt";
