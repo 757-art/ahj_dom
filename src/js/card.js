@@ -14,7 +14,7 @@ export default class Card {
   drawCardImages(list) {
     list.forEach((elem) => {
       const img = document.createElement("img");
-      img.src = `./images/${elem.toLowerCase().replaceAll(" ", "")}.png`;
+      img.src = `./assets/${elem.toLowerCase().replaceAll(" ", "")}.png`;
       img.classList.add("opacity_img");
       img.classList.add("head_img");
       img.id = `${elem.toLowerCase().replaceAll(" ", "")}`;
