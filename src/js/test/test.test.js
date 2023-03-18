@@ -1,5 +1,5 @@
-﻿﻿import { checkCardLuhn, checkPaySystem } from "../src/js/functions";
-import PaySystems from "../src/js/paySystems";
+﻿﻿import { checkCardLuhn, checkPaySystem } from "../functions";
+import PaySystems from "../paySystems";
 
 const paySystem = PaySystems.list;
 
@@ -37,7 +37,7 @@ const cards = [
   {key: 'American Express', number: '371449635398431', expected: 'American Express'},
 ];
 
-test.each(cards)('Мой кривой тест',({key, number, expected}) => {
+test.each(cards)('Мой тест',({key, number, expected}) => {
   expect(checkPaySystem(paySystem, number)).toBe(key);
 });
 
